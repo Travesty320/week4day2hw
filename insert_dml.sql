@@ -1,0 +1,110 @@
+INSERT INTO customer(
+    customer_id,
+    first_name,
+    last_name,
+    isPremiumMEMB,
+    age
+)VALUES(
+    1,
+    'Travis',
+    'Morris',
+    TRUE,
+    33
+);
+INSERT INTO customer(
+    customer_id,
+    first_name,
+    last_name,
+    isPremiumMEMB,
+    age
+)VALUES(
+    2,
+    'Shoha',
+    'Tsuchida',
+    FALSE,
+    21
+);
+INSERT INTO customer(
+    customer_id,
+    first_name,
+    last_name,
+    isPremiumMEMB,
+    age
+)VALUES(
+    3,
+    'Brandt',
+    'Carlson',
+    TRUE,
+    67 --:)
+);
+INSERT INTO tickets(
+    ticket_count,
+    customer_id,
+    child_ticket,
+    general_ticket,
+    senior_ticket,
+    premium_ticket
+)VALUES(
+    3,
+    1,
+    2,
+    2,
+    0,
+    1
+);
+INSERT INTO tickets(
+    ticket_count,
+    customer_id,
+    child_ticket,
+    general_ticket,
+    senior_ticket,
+    premium_ticket
+)VALUES(
+    1,
+    2,
+    1,
+    2,
+    1,
+    1
+);
+INSERT INTO tickets(
+    ticket_count,
+    customer_id,
+    child_ticket,
+    general_ticket,
+    senior_ticket,
+    premium_ticket
+)VALUES(
+    2,
+    3,
+    1,
+    2,
+    5,
+    2
+);
+INSERT INTO concessions(
+    concession_id,
+    food_type,
+    drink_type,
+    qty,
+    customer_id
+)VALUES(
+    1,
+    'candy',
+    'coke',
+    2,
+    1
+);
+INSERT INTO movies(
+    movie_id,
+    movie_name,
+    rating,
+    movie_length,
+    ticket_count
+)VALUES(
+    1,
+    'The Great Gatsby',
+    'PG13',
+    94.35,
+    3
+); 
